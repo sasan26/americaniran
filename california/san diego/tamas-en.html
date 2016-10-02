@@ -1,0 +1,619 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contact us</title>
+<style type="text/css">
+body {
+	background-color: #CCC;
+	margin-right:5%;
+}
+a {
+	color:#90F;
+	text-decoration:none;
+				
+}
+a:hover {
+	color:#F00;
+}
+#state {
+	font-family:Tahoma;
+	font-size:14px;
+}
+#apDiv1 {
+	position:absolute;
+	width:290px;
+	height:2000px;
+	z-index:1;
+	left: 50px;
+	top: 530px;
+}
+#apDiv2 {
+	position:absolute;
+	width:924px;
+	height:234px;
+	z-index:2;
+	left: 173px;
+	top: 530px;
+	text-align: left;
+}
+#apDiv3 {
+	position:absolute;
+	width:220px;
+	height:20000px;
+	z-index:3;
+	top: 530px;
+	left: 981px;
+}
+#apDiv4 {
+	position:absolute;
+	width:1298px;
+	height:150px;
+	z-index:4;
+	left: 50px;
+	top: 5px;
+}
+#apDiv5 {
+	position:absolute;
+	width:200px;
+	height:29px;
+	z-index:5;
+	left: 0px;
+	top: 153px;
+}
+#apDiv6 {
+	position:absolute;
+	width:1150px;
+	height:255px;
+	z-index:5;
+	left: 50px;
+	top: 250px;
+}
+#button {
+	font-family:Tahoma;
+	font-size:16px;
+	color:#666;
+	border:double;
+	background-color:#FFF;
+	width:inherit;
+	cursor:pointer;	
+}
+#button:hover {
+	color:#F00;	
+}
+
+</style>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script><script src="SpryAssets/SpryTooltip.js" type="text/javascript"></script>
+<script src="../../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="../../SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+</script>
+<link href="SpryAssets/SpryTooltip.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+<!--Hide script from old browsers
+adimage = new Array("3.gif", "1.gif", "2.gif" )
+adurl = new Array("yahoo.com", "index-en.html", "youtube.com")
+thisAd = 0
+imgCt = adimage.length
+
+function rotate() {
+	if (document.images) {
+		if (document.adBanner.complete) {
+			thisAd ++
+			if (thisAd == imgCt) {
+				thisAd = 0
+			}
+			document.adBanner.src = adimage[thisAd]
+		}
+		setTimeout("rotate()", 6*1000)
+	}
+}
+function newlocation() {
+	document.location.href = adurl[thisAd]
+	
+	
+}
+// End hiding script from old browser
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+<style type="text/css">
+#apDiv7 {	position:absolute;
+	width:200px;
+	height:30px;
+	z-index:6;
+	left: 977px;
+	top: 114px;
+}
+</style>
+<link href="../../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="../../SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="rotate()">
+<div id="apDiv2">
+  <table width="100%" border="0">
+    <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td valign="top">
+      <font color="#666666" face="Tahoma">
+      full name<p>email<br /><br /><br />message
+      </font>
+      </td>
+      <td align="left">
+      <form id="form2" name="contactus" method="post" action="us.php">
+        <span id="sprytextfield1">
+        <input type="text" name="name" id="text1" />
+        <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldMinCharsMsg">Minimum number of characters not met.</span></span>
+        <p><span id="sprytextfield2">
+        <input type="text" name="text2" id="text2" />
+        <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></p>
+        <p><span id="sprytextarea1">
+        <textarea name="textarea1" id="textarea1" cols="45" rows="5"></textarea>
+        <span id="countsprytextarea1">&nbsp;</span><span class="textareaRequiredMsg">A value is required.</span><span class="textareaMinCharsMsg">Minimum number of characters not met.</span></span></p>
+        <input name="submit" type="submit" value="  send  " />
+        <input name="reset" type="reset" value="  clear  " />
+      </form>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div id="apDiv4"><img src="logo-en.png" width="1140" height="174" alt="www.americaniran.com" />
+  <div id="apDiv5">
+<form id="form1" name="form1" method="post" action="">
+      
+        <select name="jumpMenu" id="jumpMenu">
+          <option value="tamas.html">فارسی</option>
+          <option value="tamas-en.html">English</option>
+        </select>
+        <input type="button" name="go_button" id= "go_button" value="Go" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" />
+      
+      
+    </form>
+  </div>
+  
+<p></p>
+  <ul id="MenuBar1" class="MenuBarHorizontal">
+    <li><a href="index-en.html">
+      <center>
+        <font face="Tahoma" >home</font>
+      </center>
+    </a></li>
+    <li><a href="khadamat-en.html">
+      <center>
+        <font face="Tahoma" >services</font>
+      </center>
+    </a></li>
+    <li><a href="kharid-en.html">
+      <center>
+        <font face="Tahoma" >sale</font>
+      </center>
+    </a></li>
+    <li><a href="kar-en.html">
+    <center>
+      <font face="Tahoma" >find a job</font>
+    </center>
+    </a>
+    </li>
+    <li><a href="agahi-en.html">
+      <center>
+        <font face="Tahoma" >build your ad‌</font>
+      </center>
+    </a></li>
+    <li><a href="tamas-en.html">
+      <center>
+        <font face="Tahoma" >contact us</font>
+      </center>
+    </a></li>
+    <li><a href="ma-en.html">
+      <center>
+        <font face="Tahoma" >about us</font>
+      </center>
+    </a></li>
+    <li><a href="map-en.html">
+      <center>
+        <font face="Tahoma" >site map</font>
+      </center>
+    </a></li>
+    <li>
+      <center>
+        <a href="tamas.html" title="change language"><font face="Tahoma" color="#00CC00" >فارسی</font></a>
+      </center>
+    </li>
+  </ul>
+</div>
+<div id="apDiv6">
+
+
+
+	
+	<style>
+	.captionOrange, .captionBlack
+	{
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+	}
+	.captionOrange
+	{
+	background: #EB5100;
+	background-color: rgba(235, 81, 0, 0.6);
+	}
+	.captionBlack
+	{
+	font-size:16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+	}
+	a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+	{
+	color: #ffffff;
+	text-decoration: none;
+	}
+	a.captionOrange:hover
+	{
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+	}
+	.bricon
+	{
+	background: url(../img/browser-icons.png);
+	}
+	</style>
+	
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+
+	
+	<script type="text/javascript" src="jssor.core.js"></script>
+
+	<script type="text/javascript" src="jssor.utils.js"></script>
+
+	<script type="text/javascript" src="jssor.slider.js"></script>
+
+	<script>
+	jQuery(document).ready(function ($) {
+	
+	
+	
+	var _SlideshowTransitions = [
+	
+	{$Duration: 1200, $Zoom: 11, $Rotate: -1, $Easing: { $Zoom: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Round: { $Rotate: 0.5 }, $Brother: { $Duration: 1200, $Zoom: 1, $Rotate: 1, $Easing: $JssorEasing$.$EaseSwing, $Opacity: 2, $Round: { $Rotate: 0.5 }, $Shift: 90} }
+	
+	, { $Duration: 1400, $Zoom: 1.5, $FlyDirection: 1, $Easing: { $Left: $JssorEasing$.$EaseInWave, $Zoom: $JssorEasing$.$EaseInSine }, $ScaleHorizontal: 0.25, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 1400, $Zoom: 1.5, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInWave, $Zoom: $JssorEasing$.$EaseInSine }, $ScaleHorizontal: 0.25, $Opacity: 2, $ZIndex: -10} }
+	
+	, { $Duration: 1200, $Zoom: 11, $Rotate: 1, $Easing: { $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Brother: { $Duration: 1200, $Zoom: 11, $Rotate: -1, $Easing: { $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Shift: 600} }
+	
+	, { $Duration: 1500, $Cols: 2, $FlyDirection: 1, $ChessMode: { $Column: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInOutCubic }, $ScaleHorizontal: 0.5, $Opacity: 2, $Brother: { $Duration: 1500, $Opacity: 2} }
+	
+	, { $Duration: 1500, $Zoom: 1, $Rotate: 0.1, $During: { $Left: [0.6, 0.4], $Top: [0.6, 0.4], $Rotate: [0.6, 0.4], $Zoom: [0.6, 0.4] }, $FlyDirection: 6, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Top: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.5, $Opacity: 2, $Brother: { $Duration: 1000, $Zoom: 11, $Rotate: -0.5, $Easing: { $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Shift: 200} }
+	
+	, { $Duration: 1500, $During: { $Left: [0.6, 0.4] }, $FlyDirection: 1, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $Opacity: 2, $Outside: true, $Brother: { $Duration: 1000, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $Opacity: 2} }
+	
+	, { $Duration: 1500, $Zoom: 11, $Rotate: 0.5, $During: { $Left: [0.4, 0.6], $Top: [0.4, 0.6], $Rotate: [0.4, 0.6], $Zoom: [0.4, 0.6] }, $Easing: { $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.5, $Opacity: 2, $Brother: { $Duration: 1000, $Zoom: 1, $Rotate: -0.5, $Easing: { $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $Opacity: 2, $Shift: 200} }
+
+	, { $Duration: 1200, $Rotate: -0.1, $FlyDirection: 5, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Top: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.25, $ScaleVertical: 0.5, $Opacity: 2, $Brother: { $Duration: 1200, $Rotate: 0.1, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Top: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.1, $ScaleVertical: 0.7, $Opacity: 2} }
+	
+	, { $Duration: 1600, $Rows: 2, $FlyDirection: 1, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Brother: { $Duration: 1600, $Rows: 2, $FlyDirection: 2, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2} }
+	
+	, { $Duration: 1600, $Cols: 2, $FlyDirection: 8, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Brother: { $Duration: 1600, $Cols: 2, $FlyDirection: 4, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2} }
+	
+	, { $Duration: 1200, $FlyDirection: 4, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Brother: { $Duration: 1200, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2} }
+	
+	, { $Duration: 1200, $FlyDirection: 1, $Easing: { $Left: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Brother: { $Duration: 1200, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2} }
+	
+	, { $Duration: 1200, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 1200, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $ZIndex: -10, $Shift: -100} }
+
+	, { $Duration: 1200, $Delay: 40, $Cols: 6, $FlyDirection: 1, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: { $Left: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 1200, $Delay: 40, $Cols: 6, $FlyDirection: 1, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: { $Top: $JssorEasing$.$EaseInOutQuart, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $ZIndex: -10, $Shift: -100} }
+	
+	, { $Duration: 1500, $Rotate: 0.1, $During: { $Left: [0.6, 0.4], $Top: [0.6, 0.4], $Rotate: [0.6, 0.4] }, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Top: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.1, $ScaleVertical: 0.7, $Opacity: 2, $Brother: { $Duration: 1000, $Rotate: -0.1, $FlyDirection: 5, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Top: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad }, $ScaleHorizontal: 0.2, $ScaleVertical: 0.5, $Opacity: 2} }
+	
+
+	, { $Duration: 1600, $Delay: 40, $Cols: 12, $During: { $Left: [0.4, 0.6] }, $SlideOut: true, $FlyDirection: 2, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 260, $Easing: { $Left: $JssorEasing$.$EaseInOutExpo, $Opacity: $JssorEasing$.$EaseInOutQuad }, $ScaleHorizontal: 0.2, $Opacity: 2, $Outside: true, $Round: { $Top: 0.5 }, $Brother: { $Duration: 1000, $Delay: 40, $Cols: 12, $FlyDirection: 1, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 1028, $Easing: { $Left: $JssorEasing$.$EaseInOutExpo, $Opacity: $JssorEasing$.$EaseInOutQuad }, $ScaleHorizontal: 0.2, $Opacity: 2, $Round: { $Top: 0.5}} }
+	];
+	
+	var _CaptionTransitions = [
+	
+	{$Duration: 900, $Clip: 3, $Easing: $JssorEasing$.$EaseInOutCubic },
+	
+	{$Duration: 900, $Clip: 12, $Easing: $JssorEasing$.$EaseInOutCubic },
+	
+	
+	{$Duration: 1800, $Zoom: 1, $FlyDirection: 9, $Easing: { $Left: $JssorEasing$.$EaseInJump, $Top: $JssorEasing$.$EaseInJump, $Zoom: $JssorEasing$.$EaseOutQuad }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.3, $Opacity: 2, $During: { $Left: [0, 0.8], $Top: [0, 0.8] }, $Round: { $Left: 0.8, $Top: 2.5} },
+	
+	{$Duration: 1800, $Zoom: 1, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseInJump, $Top: $JssorEasing$.$EaseInJump, $Zoom: $JssorEasing$.$EaseOutQuad }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.3, $Opacity: 2, $During: { $Left: [0, 0.8], $Top: [0, 0.8] }, $Round: { $Left: 0.8, $Top: 2.5} },
+	
+	
+	{$Duration: 1500, $Zoom: 1, $FlyDirection: 1, $Easing: { $Left: $JssorEasing$.$EaseOutWave, $Zoom: $JssorEasing$.$EaseOutCubic }, $ScaleHorizontal: 0.2, $Opacity: 2, $During: { $Left: [0, 0.7] }, $Round: { $Left: 1.3} },
+	
+	{$Duration: 1500, $Zoom: 1, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseOutWave, $Zoom: $JssorEasing$.$EaseOutCubic }, $ScaleVertical: 0.2, $Opacity: 2, $During: { $Top: [0, 0.7] }, $Round: { $Top: 1.3} },
+	
+
+	{$Duration: 600, $Zoom: 11, $Easing: { $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 },
+	
+	
+	{$Duration: 600, $Zoom: 11, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.6, $Opacity: 2 },
+	
+	{$Duration: 600, $Zoom: 11, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleVertical: 0.6, $Opacity: 2 },
+	
+	
+	{$Duration: 700, $Zoom: 1, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleVertical: 0.6, $Opacity: 2 },
+	
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 9, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseOutCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 9, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 5, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInWave }, $ScaleHorizontal: 0.5, $ScaleVertical: 0.3, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 6, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInWave }, $ScaleHorizontal: 0.5, $ScaleVertical: 0.3, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 5, $Easing: { $Left: $JssorEasing$.$EaseInWave, $Top: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.5, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	{$Duration: 1200, $Zoom: 11, $FlyDirection: 9, $Easing: { $Left: $JssorEasing$.$EaseInWave, $Top: $JssorEasing$.$EaseLinear }, $ScaleHorizontal: 0.3, $ScaleVertical: 0.5, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	
+	{$Duration: 700, $Zoom: 11, $Rotate: 1, $Easing: { $Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInExpo }, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	
+	{$Duration: 700, $Zoom: 11, $Rotate: 1, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.6, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	{$Duration: 700, $Zoom: 11, $Rotate: 1, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInCubic }, $ScaleVertical: 0.6, $Opacity: 2, $Round: { $Rotate: 0.8} },
+	
+	
+	{$Duration: 700, $Zoom: 1, $Rotate: 1, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInQuad, $Zoom: $JssorEasing$.$EaseInQuad, $Rotate: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseOutQuad }, $ScaleHorizontal: 0.6, $Opacity: 2, $Round: { $Rotate: 1.2} },
+	
+	{$Duration: 700, $Zoom: 1, $Rotate: 1, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInQuad, $Zoom: $JssorEasing$.$EaseInQuad, $Rotate: $JssorEasing$.$EaseInQuad, $Opacity: $JssorEasing$.$EaseOutQuad }, $ScaleVertical: 0.6, $Opacity: 2, $Round: { $Rotate: 1.2} },
+	
+	
+	{$Duration: 1000, $Zoom: 11, $Rotate: .2, $FlyDirection: 6, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseOutCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	
+	{$Duration: 1000, $Zoom: 11, $Rotate: .2, $FlyDirection: 9, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseOutCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	
+	{$Duration: 1000, $Zoom: 11, $Rotate: .2, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseLinear, $Top: $JssorEasing$.$EaseInCubic, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.8, $ScaleVertical: 0.5, $Opacity: 2, $During: { $Top: [0, 0.5]} },
+	{ $Duration: 1200, $Zoom: 11, $Rotate: true, $FlyDirection: 6, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseLinear, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.5, $ScaleVertical: 0.8, $Opacity: 2, $During: { $Left: [0, 0.5] }, $Round: { $Rotate: 0.5} },
+	
+	{$Duration: 1000, $Zoom: 11, $Rotate: .2, $FlyDirection: 10, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseLinear, $Zoom: $JssorEasing$.$EaseInCubic }, $ScaleHorizontal: 0.5, $ScaleVertical: 0.8, $Opacity: 2, $During: { $Left: [0, 0.5]} },
+	
+	
+	{$Duration: 900, $FlyDirection: 2, $Easing: { $Left: $JssorEasing$.$EaseInOutBack }, $ScaleHorizontal: 0.6, $Opacity: 2 },
+	
+	{$Duration: 900, $FlyDirection: 8, $Easing: { $Top: $JssorEasing$.$EaseInOutBack }, $ScaleVertical: 0.6, $Opacity: 2 },
+	
+	];
+	
+	var options = {
+	$AutoPlay: true, 
+	$AutoPlaySteps: 1, 
+	$AutoPlayInterval: 4000, 
+	$PauseOnHover: 1, 
+	
+	$ArrowKeyNavigation: true, 
+	$SlideDuration: 500, 
+	$MinDragOffsetToSlide: 20, 
+	$SlideSpacing: 0, 
+	$DisplayPieces: 1, 
+	$ParkingPosition: 0, 
+	$UISearchMode: 1, 
+	$PlayOrientation: 1, 
+	$DragOrientation: 3, 
+	
+	$SlideshowOptions: {
+	$Class: $JssorSlideshowRunner$, 
+	$Transitions: _SlideshowTransitions, 
+	$TransitionsOrder: 1, 
+	$ShowLink: true 
+	},
+	
+	$CaptionSliderOptions: { 
+	$Class: $JssorCaptionSlider$, 
+	$CaptionTransitions: _CaptionTransitions, 
+	$PlayInMode: 1, 
+	$PlayOutMode: 3 
+	},
+	
+	$BulletNavigatorOptions: { 
+	$Class: $JssorBulletNavigator$, 
+	$ChanceToShow: 2, 
+	$AutoCenter: 0,
+	$Steps: 1, 
+	$Lanes: 1, 
+	$SpacingX: 10, 
+	$SpacingY: 10, 
+	$Orientation: 1 
+	},
+	
+	$ArrowNavigatorOptions: {
+	$Class: $JssorArrowNavigator$, 
+	$ChanceToShow: 2 
+	}
+	};
+	
+	var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+	
+	function ScaleSlider() {
+	var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+	if (parentWidth)
+	jssor_slider1.$SetScaleWidth(Math.min(parentWidth, 1150));
+	else
+	window.setTimeout(ScaleSlider, 30);
+	}
+	
+	ScaleSlider();
+	
+	if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+	$(window).bind('resize', ScaleSlider);
+	}
+	
+	
+	
+	});
+	</script>
+	
+	<div id="slider1_container" style="position: relative; width: 1150px;
+	height: 255px; overflow: hidden;">
+	
+	
+	<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+	<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+	background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+	</div>
+	<div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+	top: 0px; left: 0px;width: 100%;height:100%;">
+	</div>
+	</div>
+	
+	
+	<div u="slides" style="cursor: ponter; position: absolute; left: 0px; top: 0px; width: 1150px; height: 255px;
+	overflow: hidden;">
+	<div>
+	<a u=image href="music.html"><img src="1.jpg" /></a>
+
+	<div u=caption t="*" class="captionOrange" style="position:absolute; left:20px; top: 30px; width:300px; height:90px;">
+	Pitch | Rhythm <p>
+	Major and Minor Scales 
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:20px; top: 130px; width:300px; height:90px;">
+	Key signatures 
+	<p>
+	 Chords | Clefs
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:825px; top: 110px; width:300px; height:30px;">
+	 For more information click here
+	</div>
+	</div>
+	<div>
+	<a u=image href="graphicdesigner.html"><img src="2.jpg" /></a>
+
+	<div u=caption t="*" class="captionOrange" style="position:absolute; left:800px; top: 30px; width:300px; height:30px;">
+    Logo | Banner
+    </div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:800px; top: 70px; width:300px; height:30px;">
+    Sign | Poster
+    </div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:800px; top: 110px; width:300px; height:30px;">
+    Visit Card
+    </div>
+	</div>
+	<div>
+	<a u=image href="mathteacher.html"><img src="3.jpg" /></a>
+
+	<div u=caption t="*" class="captionOrange" style="position:absolute; left:465px; top: 10px; width:220px; height:30px;">
+	for more info click here
+	</div>
+	</div>
+    <div>
+	<a u=image href="guitar.html"><img src="4.jpg" /></a>
+
+	<div u=caption t="*" class="captionOrange" style="position:absolute; left:20px; top: 20px; width:220px; height:30px;">
+	Persian Guitar Lessons
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:20px; top: 60px; width:220px; height:30px;">
+	Music Theory
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:20px; top: 100px; width:220px; height:30px;">
+	Old Persian Melodies
+	</div>
+	</div>
+    <div>
+	<a u=image href="webdesign.html"><img src="5.jpg" /></a>
+
+	<div u=caption t="*" class="captionOrange" style="position:absolute; left:400px; top: 30px; width:220px; height:30px;">
+	Web Designer
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:400px; top: 70px; width:220px; height:30px;">
+	Graphic Designer
+	</div>
+    <div u=caption t="*" class="captionOrange" style="position:absolute; left:850px; top: 120px; width:250px; height:85px;">
+	Cheap price | Fantacy Style <p>
+    Full Flash Design
+	</div>
+    </div>
+	</div>
+	
+	
+	<style>
+	
+	.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
+	{
+	filter: alpha(opacity=70);
+	opacity: .7;
+	overflow:hidden;
+	cursor: pointer;
+	border: #000 1px solid;
+	}
+	.jssorb01 div { background-color: gray; }
+	.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+	.jssorb01 .av { background-color: #fff; }
+	.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+	</style>
+	
+	<div u="navigator" class="jssorb01" style="position: absolute; bottom: 16px; right: 10px;">
+	
+	<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+	</div>
+	
+	<style>
+	
+	.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+	{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../img/a17.png) no-repeat;
+	overflow:hidden;
+	}
+	.jssora05l { background-position: -10px -40px; }
+	.jssora05r { background-position: -70px -40px; }
+	.jssora05l:hover { background-position: -130px -40px; }
+	.jssora05r:hover { background-position: -190px -40px; }
+	.jssora05ldn { background-position: -250px -40px; }
+	.jssora05rdn { background-position: -310px -40px; }
+	</style>
+	
+	<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+	</span>
+	
+	<span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
+	</span>
+	
+	<a style="display: none" href="http://www.jssor.com">html slider</a>
+
+	</div>
+	</div>
+<div id="apDiv7"><font color="#FFFF00" face="Tahoma">San Diego</font></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {minChars:3, validateOn:["blur", "change"]});
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {validateOn:["blur", "change"]});
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {validateOn:["blur", "change"], minChars:20, counterType:"chars_count", counterId:"countsprytextarea1"});
+</script>
+</body>
+</html>
